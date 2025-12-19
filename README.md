@@ -18,6 +18,7 @@ The codebase is organized into model implementations, data generation, baselines
     * Training of **MLR** and **SHORR** models.
     * Comparison with baselines (OLS, RRR, Lasso, Nuclear Norm).
     * Visualization of signal reconstruction and convergence metrics.
+    * Test on real macro-economy data for forcasting
 
 ### 🧠 Core Estimators
 * **`MLR.py` (Multilinear Low-Rank Estimator)** * **Method:** Implements the **Alternating Least Squares (ALS)** algorithm to estimate the Tucker factors ($U_1, U_2, U_3$) and the core tensor $\mathcal{G}$.
