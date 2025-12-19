@@ -15,7 +15,7 @@ We address the "curse of dimensionality" in standard VAR models (where parameter
 
 The project is organized as follows:
 
-* **`MAIN.ipynb`**: The main Jupyter Notebook. Open this to run the simulations, train the models, and visualize the results.
+* **`MAIN.ipynb`**: The main Jupyter Notebook. Open this to run the simulations, test on real data, and visualize the results.
 * **`Report.pdf`**: The detailed project report.
 * **`Code/`**: Folder containing all the source code and helper scripts.
 
@@ -61,4 +61,4 @@ The project is organized as follows:
 To run the code, ensure you have Python 3 installed along with the required scientific libraries:
 
 ```bash
-pip install numpy matplotlib scipy tqdm
+pip install numpy matplotlib tensorly tqdm
